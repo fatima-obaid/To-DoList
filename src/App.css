@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body{
+  background-color: #edd68c94;
+  font-family: "Cormorant Garamond", serif;
+}
+.App{
+  font-family: "Cormorant Garamond", serif; 
+  margin: 50px auto;
+  padding: 16px;
+  position: relative;
+  min-height: 580px;
+  max-width: 320px;
+  background-color: #f1f5f8;
+  background-image: radial-gradient(#c1c0bf84 7.2%, transparent 0);
+  background-size: 40px 40px;
+  border-radius: 20% 5% 20% 5%/5% 20% 5% 20%;
+  box-shadow: 4px 3px 7px 2px #00000040;
+
+ 
+}
+ .App h2{
+  font-family: "Caveat", cursive;
+  text-align: center;
+  font-size: 25px;
+  width: 60%;
+  margin-top: 30px;
+  margin-left: 40px;
+  background-color: #fdc66e92;
+  border-radius: 10px;
+  border-radius: 20% 5% 20% 5%/5% 20% 30% 20%;
+  padding: 0.2rem 1.2rem;
+  color: #494a4b;
+}
+.App input{
+  border: 0;
+  border-bottom: 3px solid  #fdc66e92;
+  background-color: transparent;
+  font-size: 16px;
+  padding: 10px 15px;
+  margin-top: 20px;
+  margin-left: 25px;
+  width: 70%;
+  color: #494a4bbf;
+  font-family: "Cormorant Garamond", serif;
+  margin-bottom: 10px;
+
+}
+input:focus{
+  outline: 0;
+}
+.fa-plus{
+   cursor: pointer;
+   margin-left: -20px;
+   color: #fdc66ef6;
+   font-size: 12px;
+}
+.App ul li {
+  margin-top: 12px;
+  padding-left: 30px;
+  overflow-wrap: anywhere ;
+  font-family: "Cormorant Garamond", serif;
+  color: #5b5e62;
+  list-style: none;
+  font-size: 20px;
+}
+.d2{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath fill='%23c1c1c3' d='M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.diffstyle{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath fill='%23fdc66e' d='M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM227.3 387.3l184-184c6.2-6.2 6.2-16.4 0-22.6l-22.6-22.6c-6.2-6.2-16.4-6.2-22.6 0L216 308.1l-70.1-70.1c-6.2-6.2-16.4-6.2-22.6 0l-22.6 22.6c-6.2 6.2-6.2 16.4 0 22.6l104 104c6.2 6.2 16.4 6.2 22.6 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  text-decoration: line-through;
+  text-decoration-color:  #1f1f20d5;
+  opacity: 0.7;
+  cursor: pointer;
+  background-size: 20px;
+} 
+.div6{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transform: rotate(-220deg);
+  margin-left: -130PX;
+  margin-top: 225px;
+}
+
+.div6-0,.div6-1,.div6-2,.div6-3,.div6-4,.div6-5,.div6-6{
+height: 10px;
+background-color: rgba(184, 145, 68, 0.378);
+margin-top: 17px;
+}
+.div6-0{
+ width: 90px;
+ margin-left: 50px;
+}
+.div6-1,.div6-5{
+  width: 150px;
+margin-left: 20px;
+}
+.div6-2,.div6-4{
+  width: 175px;
+  margin-left: 10px;
+}
+.div6-3{
+  width: 190px;
+ margin-left: 2PX;
+}
+.div6-6{
+width: 90px;
+margin-left: 50px;
+}
+.div7{
+  width: 105px;
+  height: 200px; 
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59% ;
+  background-color:  rgba(184, 145, 68, 0.616);
+  margin-top: -500px;
+  margin-left: 270px;
+  position: absolute;
+  transform: rotate(-20deg);
+  z-index: -1000;
+}
+.delet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #0909096b;
+  font-size: 13px;
+  cursor: pointer;
+ 
+
+  
+}
+.delet i{
+padding-right: 50px;
+margin-top: 12px;
+}
